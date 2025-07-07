@@ -1,0 +1,1424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Top Ten</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>unpublished</p>
+			</publicationStmt>
+			<sourceDesc>
+				<listBibl type="media">
+					<head>Media</head>
+					<bibl xml:id="magazin-64er"/>
+				</listBibl>
+				<listBibl type="games">
+					<head>Games</head>
+					<bibl xml:id="Air-Sea-Supremacy" ana="#compilation">
+						<title>Air/Sea Supremacy</title>
+						<publisher>Ubisoft</publisher>
+						<date>1991</date>
+						<ptr target="https://www.mobygames.com/game/57280/air-sea-supremacy/"/>
+					</bibl>
+					<bibl xml:id="Armalyte" ana="#shooter">
+						<title>Armalyte</title>
+						<publisher>Thalamus</publisher>
+						<date>1988</date>
+						<ptr target="https://www.mobygames.com/game/11953/armalyte/"/>
+					</bibl>
+					<bibl xml:id="Back-to-the-Future-3">
+						<title>Back to the Future III</title>
+						<publisher>Image Works</publisher>
+						<date>1991</date>
+						<ptr target="https://www.mobygames.com/game/7600/back-to-the-future-part-iii/"/>
+					</bibl>
+					<bibl xml:id="Big-Box-2" ana="#compilation">
+						<title>Big Box 2</title>
+						<publisher>Beau Jolly</publisher>
+						<date>1991</date>
+						<ptr target="https://www.c64-wiki.de/wiki/Big_Box_(Sammlung)"/>
+					</bibl>
+					<bibl xml:id="Black-Panther">
+						<title>Black Panther</title>
+						<publisher>CP Verlag</publisher>
+						<date>1991</date>
+						<ptr target="https://www.mobygames.com/game/32204/black-panther/"/>
+					</bibl>
+					<bibl xml:id="Buck-Rogers">
+						<title>Buck Rogers</title>
+						<publisher>SSI</publisher>
+						<date>1990</date>
+						<ptr target="https://www.mobygames.com/game/489/buck-rogers-countdown-to-doomsday/"/>
+					</bibl>
+					<bibl xml:id="Bug-Bomber">
+						<title>Bug Bomber</title>
+						<publisher>Kingsoft</publisher>
+						<date>1992</date>
+						<ptr target="https://www.mobygames.com/game/25788/bug-bomber/"/>
+					</bibl>
+					<bibl xml:id="Bundesliga-Manager" ana="#trade #sport">
+						<title>Bundesliga Manager</title>
+						<publisher>Software 2000</publisher>
+						<date>1990</date>
+						<ptr target="https://www.mobygames.com/game/32177/bundesliga-manager/"/>
+					</bibl>
+					<bibl xml:id="Challengers" ana="#compilation">
+						<title>Challengers</title>
+						<publisher>Ubisoft</publisher>
+						<date>1990</date>
+						<ptr target="https://www.mobygames.com/game/13058/challengers/"/>
+					</bibl>
+					<bibl xml:id="Champions-of-Krynn" ana="#rpg #fantasy">
+						<title>Champions of Krynn</title>
+						<publisher>SSI</publisher>
+						<date>1990</date>
+						<ptr target="https://www.mobygames.com/game/833/champions-of-krynn/"/>
+					</bibl>
+					<bibl xml:id="Conquestador">
+						<title>Conquestador</title>
+						<publisher>German Design Group</publisher>
+						<date>1991</date>
+						<ptr target="https://www.c64-wiki.de/wiki/Conquestador"/>
+					</bibl>
+					<bibl xml:id="Crazy-Cars-3">
+						<title>Crazy Cars III</title>
+						<publisher>Titus France</publisher>
+						<date>1992</date>
+						<ptr target="https://www.mobygames.com/game/783/lamborghini-american-challenge/"/>
+					</bibl>
+					<bibl xml:id="Creatures">
+						<title>Creatures</title>
+						<publisher>Thalamus</publisher>
+						<date>1990</date>
+						<ptr target="https://www.mobygames.com/game/16088/creatures/"/>
+					</bibl>
+					<bibl xml:id="Creatures-2">
+						<title>Creatures II</title>
+						<publisher>Thalamus</publisher>
+						<date>1992</date>
+						<ptr target="https://www.mobygames.com/game/16102/creatures-2-torture-trouble/"/>
+					</bibl>
+					<bibl xml:id="Der-Preis-ist-heiss" ana="#quiz">
+						<title>Der Preis ist heiss</title>
+						<publisher>GameTek</publisher>
+						<date>1990</date>
+						<ptr target="https://www.mobygames.com/game/23878/the-price-is-right/"/>
+					</bibl>
+					<bibl xml:id="Dick-Tracy">
+						<title>Dick Tracy</title>
+						<publisher>Titus France</publisher>
+						<date>1990</date>
+						<ptr target="https://www.mobygames.com/game/22129/dick-tracy/"/>
+					</bibl>
+					<bibl xml:id="Dino-Wars">
+						<title>Dino Wars</title>
+						<publisher>Magic Bytes</publisher>
+						<date>1991</date>
+						<ptr target="https://www.mobygames.com/game/37221/dino-wars/"/>
+					</bibl>
+					<bibl xml:id="Elite" ana="#openworld #scifi">
+						<title>Elite</title>
+						<publisher>Firebird</publisher>
+						<date>1985</date>
+						<ptr target="https://www.mobygames.com/game/1324/elite/"/>
+					</bibl>
+					<bibl xml:id="Elvira" ana="#adventure #horror">
+						<title>Elvira</title>
+						<publisher>Flair</publisher>
+						<date>1990</date>
+						<ptr target="https://www.mobygames.com/game/4050/elvira/"/>
+					</bibl>
+					<bibl xml:id="Elvira-2" ana="#adventure #horror">
+						<title>Elvira II</title>
+						<publisher>Flair</publisher>
+						<date>1992</date>
+						<ptr target="https://www.mobygames.com/game/1779/elvira-ii-the-jaws-of-cerberus/"/>
+					</bibl>
+					<bibl xml:id="Enforcer">
+						<title>Enforcer</title>
+						<publisher>The Power House</publisher>
+						<date>1987</date>
+						<ptr target="https://www.mobygames.com/game/65652/the-enforcer/"/>
+					</bibl>
+					<bibl xml:id="Familien-Duell" ana="#puzzle #entertainment">
+						<title>Familien-Duell</title>
+						<publisher>PCSL</publisher>
+						<date>1992</date>
+						<ptr target="https://www.c64games.de/phpseiten/spieledetail.php?filnummer=2747"/>
+					</bibl>
+					<bibl xml:id="Flimbos-Quest">
+						<title>Flimbo's Quest</title>
+						<publisher>System 3</publisher>
+						<date>1990</date>
+						<ptr target="https://www.mobygames.com/game/14028/flimbos-quest/"/>
+					</bibl>
+					<bibl xml:id="Fugger" ana="#trade #history">
+						<title>Fugger</title>
+						<publisher>Bomico</publisher>
+						<date>1988</date>
+						<ptr target="https://www.mobygames.com/game/37227/fugger/"/>
+					</bibl>
+					<bibl xml:id="Full-Blast" ana="#compilation">
+						<title>Full Blast</title>
+						<publisher>Ubisoft</publisher>
+						<date>1991</date>
+						<ptr target="https://www.everygamegoing.com/litem/Full-Blast/81988/"/>
+					</bibl>
+					<bibl xml:id="Giana-Sisters" ana="#platform">
+						<title>The Great Giana Sisters</title>
+						<publisher>Rainbow Arts</publisher>
+						<date>1987</date>
+						<ptr target="https://www.mobygames.com/game/11582/the-great-giana-sisters/"/>
+					</bibl>
+					<bibl xml:id="Gluecksrad" ana="#puzzle #entertainment">
+						<title>Gluecksrad</title>
+						<publisher>ShareData</publisher>
+						<date>1987</date>
+						<ptr target="https://www.mobygames.com/game/2028/wheel-of-fortune/"/>
+					</bibl>
+					<bibl xml:id="Grand-Monster-Slam" ana="#sports #fantasy">
+						<title>Grand Monster Slam</title>
+						<publisher>Rainbow Arts</publisher>
+						<date>1989</date>
+						<ptr target="https://www.mobygames.com/game/4916/grand-monster-slam/"/>
+					</bibl>
+					<bibl xml:id="Grand-Prix-Circuit" ana="#sports #racing">
+						<title>Grand Prix Circuit</title>
+						<publisher>Accolade</publisher>
+						<date>1988</date>
+						<ptr target="https://www.mobygames.com/game/1446/grand-prix-circuit/"/>
+					</bibl>
+					<bibl xml:id="Gremlins-2">
+						<title>Gremlins 2</title>
+						<publisher>Elite Systems</publisher>
+						<date>1990</date>
+						<ptr target="https://www.mobygames.com/game/1132/gremlins-2-the-new-batch/"/>
+					</bibl>
+					<bibl xml:id="Hawkeye">
+						<title>Hawkeye</title>
+						<publisher>Thalamus</publisher>
+						<date>1988</date>
+						<ptr target="https://www.mobygames.com/game/27767/hawkeye/"/>
+					</bibl>
+					<bibl xml:id="Kangarudy">
+						<title>Kangarudy</title>
+						<publisher>CP Verlag</publisher>
+						<date>1992</date>
+						<ptr target="https://www.lemon64.com/game/kangarudy"/>
+					</bibl>
+					<bibl xml:id="Katakis" ana="#shooter #scifi">
+						<title>Katakis</title>
+						<publisher>Rainbow Arts</publisher>
+						<date>1988</date>
+						<ptr target="https://www.mobygames.com/game/17058/katakis/"/>
+					</bibl>
+					<bibl xml:id="Kick-Off-2">
+						<title>Kick Off II</title>
+						<publisher>Anco</publisher>
+						<date>1990</date>
+						<ptr target="https://www.mobygames.com/game/2790/kick-off-2/"/>
+					</bibl>
+					<bibl xml:id="Klax">
+						<title>Klax</title>
+						<publisher>Atari</publisher>
+						<date>1990</date>
+						<ptr target="https://www.mobygames.com/game/4642/klax/"/>
+					</bibl>
+					<bibl xml:id="Last-Ninja-2" ana="#action-adventure #fareast">
+						<title>Last Ninja 2</title>
+						<publisher>System 3</publisher>
+						<date>1988</date>
+						<ptr target="https://www.mobygames.com/game/1436/last-ninja-2-back-with-a-vengeance/"/>
+					</bibl>
+					<bibl xml:id="Last-Ninja-3" ana="#action-adventure #fareast">
+						<title>Last Ninja 3</title>
+						<publisher>System 3</publisher>
+						<date>1991</date>
+						<ptr target="https://www.mobygames.com/game/18660/last-ninja-3/"/>
+					</bibl>
+					<bibl xml:id="Lotus">
+						<title>Lotus Esprit Turbo Challenge</title>
+						<publisher>Gremlin</publisher>
+						<date>1990</date>
+						<ptr target="https://www.mobygames.com/game/10773/lotus-esprit-turbo-challenge/"/>
+					</bibl>
+					<bibl xml:id="Manchester-United-Europe" ana="#sports #soccer">
+						<title>Manchester United Europe</title>
+						<publisher>Krisalis</publisher>
+						<date>1991</date>
+						<ptr target="https://www.mobygames.com/game/13148/microleague-action-sports-soccer/"/>
+					</bibl>
+					<bibl xml:id="Maniac-Mansion" ana="#adventure #comedy">
+						<title>Maniac Mansion</title>
+						<publisher>Lucasfilm</publisher>
+						<date>1987</date>
+						<ptr target="https://www.mobygames.com/game/714/maniac-mansion/"/>
+					</bibl>
+					<bibl xml:id="Mechanicus" ana="#action">
+						<title>Mechanicus</title>
+						<publisher>CP Verlag</publisher>
+						<date>1991</date>
+						<ptr target="https://www.c64-wiki.de/wiki/Mechanicus"/>
+					</bibl>
+					<bibl xml:id="Ninja-Remix" ana="#action-adventure #fareast">
+						<title>Ninja Remix</title>
+						<publisher>System 3</publisher>
+						<date>1990</date>
+						<ptr target="https://www.mobygames.com/game/39740/ninja-remix/"/>
+					</bibl>
+					<bibl xml:id="North-and-South">
+						<title>North &amp; South</title>
+						<publisher>Infogrames</publisher>
+						<date>1989</date>
+						<ptr target="https://www.mobygames.com/game/6926/north-south/"/>
+					</bibl>
+					<bibl xml:id="Oil-Imperium" ana="#trade #contemporary">
+						<title>Oil Imperium</title>
+						<publisher>Reline</publisher>
+						<date>1989</date>
+						<ptr target="https://www.mobygames.com/game/2510/black-gold/"/>
+					</bibl>
+					<bibl xml:id="PP-Hammer" ana="#platform #modern">
+						<title>P. P. Hammer</title>
+						<publisher>Demonware</publisher>
+						<date>1991</date>
+						<ptr target="https://www.mobygames.com/game/16607/PP-hammer-and-his-pneumatic-weapon/"/>
+					</bibl>
+					<bibl xml:id="Pirates" ana="#openworld #pirates">
+						<title>Pirates!</title>
+						<date>1987</date>
+						<publisher>Microprose</publisher>
+						<trait type="Cross-Genre" subtype="Piraten"/>
+						<ptr target="https://www.mobygames.com/game/214/sid-meiers-pirates/"/>
+					</bibl>
+					<bibl xml:id="Power-Drift">
+						<title>Power Drift</title>
+						<publisher>Activision</publisher>
+						<date>1989</date>
+						<ptr target="https://www.mobygames.com/game/10362/power-drift/"/>
+					</bibl>
+					<bibl xml:id="Power-Up" ana="#compilation">
+						<title>Power Up</title>
+						<publisher>Ocean</publisher>
+						<date>1991</date>
+						<ptr target="https://www.mobygames.com/game/14395/power-up/"/>
+					</bibl>
+					<bibl xml:id="Rainbow-Islands" ana="#platform">
+						<title>Rainbow Islands</title>
+						<publisher>Ocean</publisher>
+						<date>1990</date>
+						<ptr target="https://www.mobygames.com/game/7695/rainbow-islands/"/>
+					</bibl>
+					<bibl xml:id="Ralf-Glau-Edition">
+						<title>Ralf Glau Edition</title>
+						<publisher>United</publisher>
+						<date>1991</date>
+						<ptr target="https://www.mobygames.com/game/54570/die-ralf-glau-edition/"/>
+					</bibl>
+					<bibl xml:id="Reederei" ana="#trade #contemporary">
+						<title>Reederei</title>
+						<publisher>Ariolasoft</publisher>
+						<date>1990</date>
+						<ptr target="https://www.mobygames.com/game/25411/reederei/"/>
+					</bibl>
+					<bibl xml:id="Rick-Dangerous-2" ana="#platform #modern">
+						<title>Rick Dangerous 2</title>
+						<publisher>MicroProse</publisher>
+						<date>1990</date>
+						<ptr target="https://www.mobygames.com/game/605/rick-dangerous-2/"/>
+					</bibl>
+					<bibl xml:id="Riskant">
+						<title>Riskant!</title>
+						<publisher>GameTek</publisher>
+						<date>1991</date>
+						<ptr target="https://www.lemon64.com/game/riskant"/>
+					</bibl>
+					<bibl xml:id="Rodland" ana="#platform #fantasy">
+						<title>Rod-Land</title>
+						<publisher>Sales Curve</publisher>
+						<date>1991</date>
+						<ptr target="https://www.mobygames.com/game/12239/rod-land/"/>
+					</bibl>
+					<bibl xml:id="R-Type" ana="#shooter #sci-fi">
+						<title>R-Type</title>
+						<publisher>Rainbow Arts</publisher>
+						<date>1988</date>
+						<ptr target="https://www.mobygames.com/game/5960/r-type/"/>
+					</bibl>
+					<bibl xml:id="Sim-City" ana="#strategy #contemporary">
+						<title>Sim City</title>
+						<publisher>Maxis</publisher>
+						<date>1989</date>
+						<ptr target="https://www.mobygames.com/game/848/simcity/"/>
+					</bibl>
+					<bibl xml:id="Soul-Crystal">
+						<title>Soul Crystal</title>
+						<publisher>Starbyte</publisher>
+						<date>1992</date>
+						<ptr target="https://www.mobygames.com/game/797/soul-crystal/"/>
+					</bibl>
+					<bibl xml:id="Sporting-Gold" ana="#compilation">
+						<title>Sporting Gold</title>
+						<publisher>Epyx</publisher>
+						<date>1990</date>
+						<ptr target="https://www.mobygames.com/game/55402/sporting-gold/"/>
+					</bibl>
+					<bibl xml:id="No-1-Collection" ana="#compilation">
+						<title>No. 1 Collection</title>
+						<publisher>Starbyte</publisher>
+						<date>1991</date>
+						<ptr target="https://www.mobygames.com/game/75924/no-1-collection/"/>
+					</bibl>
+					<bibl xml:id="Starbyte-Super-Soccer" ana="#trade #soccer">
+						<title>Starbyte Super Soccer</title>
+						<publisher>Starbyte</publisher>
+						<date>1991</date>
+						<ptr target="https://www.mobygames.com/game/56124/starbyte-super-soccer/"/>
+					</bibl>
+					<bibl xml:id="Stoppt-den-Calippo-Fresser" ana="#action">
+						<title>Stoppt den Calippo Fresser</title>
+						<publisher>Langnese</publisher>
+						<date>1992</date>
+						<ptr target="https://www.c64games.de/phpseiten/spieledetail.php?filnummer=5190"/>
+					</bibl>
+					<bibl xml:id="Stunt-Car-Racer" ana="#sports #racing">
+						<title>Stunt Car Racer</title>
+						<publisher>MicroProse</publisher>
+						<date>1989</date>
+						<ptr target="https://www.mobygames.com/game/782/stunt-track-racer/"/>
+					</bibl>
+					<bibl xml:id="Teenage-Mutant-Hero-Turtles-2">
+						<title>Teenage Mutant Hero Turtles II</title>
+						<date>1991</date>
+						<publisher>Konami</publisher>
+						<ptr target="https://www.mobygames.com/game/7470/teenage-mutant-ninja-turtles/"/>
+					</bibl>
+					<bibl xml:id="Terminator-2" ana="#action #sci-fi">
+						<title>Terminator II</title>
+						<publisher>Ocean</publisher>
+						<date>1991</date>
+						<ptr target="https://www.mobygames.com/game/2361/terminator-2-judgment-day/"/>
+					</bibl>
+					<bibl xml:id="Test-Drive-2">
+						<title>Test Drive II</title>
+						<publisher>Accolade</publisher>
+						<date>1989</date>
+						<ptr target="https://www.mobygames.com/game/2107/the-duel-test-drive-ii/"/>
+					</bibl>
+					<bibl xml:id="Tetris" ana="#puzzle #abstract">
+						<title>Tetris</title>
+						<publisher>Mirrorsoft</publisher>
+						<date>1988</date>
+						<ptr target="https://www.mobygames.com/game/71113/tetris/"/>
+					</bibl>
+					<bibl xml:id="The-Simpsons" ana="#platform #comedy">
+						<title>The Simpsons</title>
+						<publisher>Konami</publisher>
+						<date>1991</date>
+						<ptr target="https://www.mobygames.com/game/2111/the-simpsons/"/>
+					</bibl>
+					<bibl xml:id="The-Untouchables">
+						<title>The Untouchables</title>
+						<publisher>Ocean</publisher>
+						<date>1989</date>
+						<ptr target="https://www.mobygames.com/game/1435/the-untouchables/"/>
+					</bibl>
+					<bibl xml:id="Toobin" ana="#sports #racing">
+						<title>Toobin</title>
+						<publisher>Domark</publisher>
+						<date>1988</date>
+						<ptr target="https://www.mobygames.com/game/4644/toobin/"/>
+					</bibl>
+					<bibl xml:id="Turbo-Outrun" ana="#sports #racing">
+						<title>Turbo Outrun</title>
+						<publisher>SEGA</publisher>
+						<date>1989</date>
+						<ptr target="https://www.mobygames.com/game/794/turbo-out-run/"/>
+					</bibl>
+					<bibl xml:id="Turrican" ana="#platform #scifi">
+						<title>Turrican</title>
+						<publisher>Rainbow Arts</publisher>
+						<date>1990</date>
+						<ptr target="https://www.mobygames.com/game/5656/turrican/"/>
+					</bibl>
+					<bibl xml:id="Turrican-2" ana="#platform #scifi">
+						<title>Turrican 2</title>
+						<publisher>Rainbow Arts</publisher>
+						<date>1991</date>
+						<ptr target="https://www.mobygames.com/game/6468/turrican-ii-the-final-fight/"/>
+					</bibl>
+					<bibl xml:id="UN-Squadron">
+						<title>U.N. Squadron</title>
+						<publisher>US Gold</publisher>
+						<date>1990</date>
+						<ptr target="https://www.mobygames.com/game/8061/un-squadron/"/>
+					</bibl>
+					<bibl xml:id="USS-John-Young-Special" ana="#simulation #war">
+						<title>USS John Young Special</title>
+						<publisher>Magic Bytes</publisher>
+						<date>1990</date>
+						<ptr target="https://www.mobygames.com/game/11099/uss-john-young/"/>
+					</bibl>
+					<bibl xml:id="Winzer" ana="#trade #contemporary">
+						<title>Winzer</title>
+						<publisher>Starbyte</publisher>
+						<date>1991</date>
+						<ptr target="https://www.mobygames.com/game/13070/winzer/"/>
+					</bibl>
+					<bibl xml:id="WWF-Wrestling" ana="#sports">
+						<title>WWF Wrestlemania</title>
+						<publisher>Ocean</publisher>
+						<date>1991</date>
+						<ptr target="https://www.mobygames.com/game/23443/wwf-wrestlemania/"/>
+					</bibl>
+					<bibl xml:id="X-Out" ana="#shooter #scifi">
+						<title>X-Out</title>
+						<publisher>Rainbow Arts</publisher>
+						<date>1990</date>
+						<ptr target="https://www.mobygames.com/game/11313/x-out/"/>
+					</bibl>
+					<bibl xml:id="Zak-McKracken" ana="#adventure #comedy">
+						<title>Zak McKracken</title>
+						<publisher>Lucasfilm</publisher>
+						<date>1988</date>
+						<ptr target="https://www.mobygames.com/game/305/zak-mckracken-and-the-alien-mindbenders/"/>
+					</bibl>
+				</listBibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="magazin-64er-hitparade">
+				<head>64’er</head>
+				<list n="1991-04">
+					<fw>Ausgabe 4/April 1991</fw>
+					<head>Top Ten : Die 64’er Hitparade</head>
+					<item n="1" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="2" ana="#Turrican">Turrican</item>
+					<item n="3" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="4" ana="#Pirates">Pirates!</item>
+					<item n="5" ana="#Katakis">Katakis</item>
+					<item n="6" ana="#Elite">Elite</item>
+					<item n="7" ana="#R-Type">R-Type</item>
+					<item n="8" ana="#Grand-Prix-Circuit">Grand Prix Circuit</item>
+					<item n="9" ana="#Fugger">Fugger</item>
+					<item n="10" ana="#X-Out">X-Out</item>
+				</list>
+				<list n="1991-05">
+					<fw>Ausgabe 5/Mai 1991</fw>
+					<head>Top Ten : Die 64’er Hitparade</head>
+					<item n="1" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="2" ana="#Turrican">Turrican</item>
+					<item n="3" ana="#Pirates">Pirates!</item>
+					<item n="4" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="5" ana="#Oil-Imperium">Oil Imperium</item>
+					<item n="6" ana="#Sim-City">Sim City</item>
+					<item n="7" ana="#Elite">Elite</item>
+					<item n="8" ana="#Giana-Sisters">Giana Sisters</item>
+					<item n="9" ana="#Tetris">Tetris</item>
+					<item n="10" ana="#Katakis">Katakis</item>
+				</list>
+				<list n="1991-06">
+					<fw>Ausgabe 6/Juni 1991</fw>
+					<head>Die 64’er Hitparade</head>
+					<item n="1" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="2" ana="#Turrican">Turrican</item>
+					<item n="3" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="4" ana="#Pirates">Pirates!</item>
+					<item n="5" ana="#Katakis">Katakis</item>
+					<item n="6" ana="#Grand-Prix-Circuit">Grand Prix Circuit</item>
+					<item n="7" ana="#Elite">Elite</item>
+					<item n="8" ana="#Last-Ninja-2">Last Ninja 2</item>
+					<item n="9" ana="#Oil-Imperium">Oil Imperium</item>
+					<item n="10" ana="#X-Out">X-Out</item>
+				</list>
+				<list n="1991-07">
+					<fw>Ausgabe 7/Juli 1991</fw>
+					<head>64’er Hitparade</head>
+					<item n="1" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="2" ana="#Turrican">Turrican</item>
+					<item n="3" ana="#Pirates">Pirates!</item>
+					<item n="4" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="5" ana="#Elite">Elite</item>
+					<item n="6" ana="#Oil-Imperium">Oil Imperium</item>
+					<!-- confirmed by 08/91 -->
+					<item n="7" ana="#Katakis">Katakis</item>
+					<item n="8" ana="#Turrican-2">Turrican 2</item>
+					<!--<item n="9">Oil Imperium</item>-->
+					<!--double entry-->
+					<item n="10" ana="#Tetris">Tetris</item>
+				</list>
+				<list n="1991-08">
+					<fw>Ausgabe 8/August 1991</fw>
+					<head>64’er Hitparade</head>
+					<item n="1" ana="#Turrican">Turrican</item>
+					<item n="2" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="3" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="4" ana="#Katakis">Katakis</item>
+					<item n="5" ana="#Pirates">Pirates!</item>
+					<item n="6" ana="#Turrican-2">Turrican 2</item>
+					<item n="7" ana="#Oil-Imperium">Oil Imperium</item>
+					<item n="8" ana="#Last-Ninja-2">Last Ninja 2</item>
+					<item n="9" ana="#Grand-Prix-Circuit">Grand Prix Circuit</item>
+					<item n="10" ana="#X-Out">X-Out</item>
+				</list>
+				<list n="1991-09">
+					<fw>Ausgabe 9/September 1991</fw>
+					<head>64’er Hitparade</head>
+					<item n="1" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="2" ana="#Turrican">Turrican</item>
+					<item n="3" ana="#Pirates">Pirates!</item>
+					<item n="4" ana="#Turrican-2">Turrican 2</item>
+					<item n="5" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="6" ana="#Katakis">Katakis</item>
+					<item n="7" ana="#Oil-Imperium">Oil Imperium</item>
+					<item n="8" ana="#Elite">Elite</item>
+					<item n="9" ana="#Tetris">Tetris</item>
+					<item n="10" ana="#Grand-Prix-Circuit">Grand Prix Circuit</item>
+				</list>
+				<list n="1991-10">
+					<fw>Ausgabe 10/Oktober 1991</fw>
+					<head>64’er Hitparade</head>
+					<item n="1" ana="#Turrican">Turrican</item>
+					<item n="2" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="3" ana="#Turrican-2">Turrican 2</item>
+					<item n="4" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="5" ana="#Pirates">Pirates!</item>
+					<item n="6" ana="#Katakis">Katakis</item>
+					<item n="7" ana="#Oil-Imperium">Oil Imperium</item>
+					<item n="8" ana="#Last-Ninja-2">Last Ninja 2</item>
+					<item n="9" ana="#Grand-Prix-Circuit">Grand Prix Circuit</item>
+					<item n="10" ana="#X-Out">X-Out</item>
+				</list>
+				<list n="1991-11">
+					<fw>Ausgabe 11/November 1991</fw>
+					<head>64’er Hitparade</head>
+					<item n="1" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="2" ana="#Turrican-2">Turrican 2</item>
+					<item n="3" ana="#Turrican">Turrican</item>
+					<item n="4" ana="#Pirates">Pirates!</item>
+					<item n="5" ana="#Tetris">Tetris</item>
+					<item n="6" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="7" ana="#Oil-Imperium">Oil Imperium</item>
+					<item n="8" ana="#Katakis">Katakis</item>
+					<item n="9" ana="#Elite">Elite</item>
+					<item n="10" ana="#Grand-Prix-Circuit">Grand Prix Circuit</item>
+				</list>
+				<list n="1991-12">
+					<fw>Ausgabe 12/Dezember 1991</fw>
+					<head>64’er Hitparade</head>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Turrican">Turrican</item>
+					<item n="3" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="4" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="5" ana="#Pirates">Pirates!</item>
+					<item n="6" ana="#Last-Ninja-2">Last Ninja 2</item>
+					<item n="7" ana="#Oil-Imperium">Oil Imperium</item>
+					<item n="8" ana="#Katakis">Katakis</item>
+					<item n="9" ana="#Grand-Prix-Circuit">Grand Prix Circuit</item>
+					<item n="10" ana="#X-Out">X-Out</item>
+				</list>
+				<list n="1992-01">
+					<fw>Ausgabe 01/92</fw>
+					<item n="1" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="2" ana="#Turrican-2">Turrican 2</item>
+					<item n="3" ana="#Turrican">Turrican</item>
+					<item n="4" ana="#Pirates">Pirates!</item>
+					<item n="5" ana="#Tetris">Tetris</item>
+					<item n="6" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="7" ana="#Oil-Imperium">Oil Imperium</item>
+					<item n="8" ana="#Grand-Prix-Circuit">Grand Prix Circuit</item>
+					<item n="9" ana="#Elite">Elite</item>
+					<item n="10" ana="#Last-Ninja-3">Last Ninja 3</item>
+				</list>
+				<list n="1992-02">
+					<fw>Ausgabe 02/92</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="3" ana="#Turrican">Turrican</item>
+					<item n="4" ana="#Last-Ninja-2">Last Ninja 2</item>
+					<item n="5" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="6" ana="#Pirates">Pirates!</item>
+					<item n="7" ana="#Katakis">Katakis</item>
+					<item n="8" ana="#Oil-Imperium">Oil Imperium</item>
+					<item n="9" ana="#Grand-Prix-Circuit">Grand Prix Circuit</item>
+					<item n="10" ana="#X-Out">X-Out</item>
+				</list>
+				<list n="1992-03">
+					<fw>Ausgabe 03/92</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="3" ana="#Turrican">Turrican</item>
+					<item n="4" ana="#Tetris">Tetris</item>
+					<item n="5" ana="#Pirates">Pirates!</item>
+					<item n="6" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="7" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="8" ana="#Grand-Prix-Circuit">Grand Prix Circuit</item>
+					<item n="9" ana="#Oil-Imperium">Oil Imperium</item>
+					<item n="10" ana="#Elite">Elite</item>
+				</list>
+				<list n="1992-04">
+					<fw>Ausgabe 04/92</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="3" ana="#Turrican">Turrican</item>
+					<item n="4" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="5" ana="#Last-Ninja-2">Last Ninja 2</item>
+					<item n="6" ana="#Pirates">Pirates!</item>
+					<item n="7" ana="#Grand-Prix-Circuit">Grand Prix Circuit</item>
+					<item n="8" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="9" ana="#Oil-Imperium">Oil Imperium</item>
+					<item n="10" ana="#Katakis">Katakis</item>
+				</list>
+				<list n="1992-05">
+					<fw>Ausgabe 05/92</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="3" ana="#Turrican">Turrican</item>
+					<item n="4" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="5" ana="#Tetris">Tetris</item>
+					<item n="6" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="7" ana="#Pirates">Pirates!</item>
+					<item n="8" ana="#Oil-Imperium">Oil Imperium</item>
+					<item n="9" ana="#Grand-Prix-Circuit">Grand Prix Circuit</item>
+					<item n="10" ana="#Elite">Elite</item>
+				</list>
+				<list n="1992-06">
+					<fw>Ausgabe 06/92</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="3" ana="#Turrican">Turrican</item>
+					<item n="4" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="5" ana="#Oil-Imperium">Oil Imperium</item>
+					<item n="6" ana="#Pirates">Pirates!</item>
+					<item n="7" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="8" ana="#Katakis">Katakis</item>
+					<item n="9" ana="#Grand-Prix-Circuit">Grand Prix Circuit</item>
+					<item n="10" ana="#Elite">Elite</item>
+				</list>
+				<list n="1992-07">
+					<fw>Ausgabe 07/92</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="3" ana="#Turrican">Turrican</item>
+					<item n="4" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="5" ana="#Oil-Imperium">Oil Imperium</item>
+					<item n="6" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="7" ana="#Pirates">Pirates!</item>
+					<item n="8" ana="#Grand-Prix-Circuit">Grand Prix Circuit</item>
+					<item n="9" ana="#Tetris">Tetris</item>
+					<item n="10" ana="#Elite">Elite</item>
+				</list>
+				<list n="1992-08">
+					<fw>Ausgabe 08/92</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="3" ana="#Turrican">Turrican</item>
+					<item n="4" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="5" ana="#Pirates">Pirates!</item>
+					<item n="6" ana="#Oil-Imperium">Oil Imperium</item>
+					<item n="7" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="8" ana="#Katakis">Katakis</item>
+					<item n="9" ana="#Grand-Prix-Circuit">Grand Prix Circuit</item>
+					<item n="10" ana="#Elite">Elite</item>
+				</list>
+				<list n="1992-09">
+					<fw>Ausgabe 09/92</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="3" ana="#Turrican">Turrican</item>
+					<item n="4" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="5" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="6" ana="#Oil-Imperium">Oil Imperium</item>
+					<item n="7" ana="#Tetris">Tetris</item>
+					<item n="8" ana="#Pirates">Pirates!</item>
+					<item n="9" ana="#Elite">Elite</item>
+					<item n="10" ana="#Grand-Prix-Circuit">Grand Prix Circuit</item>
+				</list>
+				<list n="1992-10">
+					<fw>Ausgabe 10/92</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="3" ana="#Turrican">Turrican</item>
+					<item n="4" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="5" ana="#Pirates">Pirates!</item>
+					<item n="6" ana="#Oil-Imperium">Oil Imperium</item>
+					<item n="7" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="8" ana="#Katakis">Katakis</item>
+					<item n="9" ana="#Grand-Prix-Circuit">Grand Prix Circuit</item>
+					<item n="10" ana="#Elite">Elite</item>
+				</list>
+				<list n="1992-11">
+					<fw>Ausgabe 11/92</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="3" ana="#Turrican">Turrican</item>
+					<item n="4" ana="#Pirates">Pirates!</item>
+					<item n="5" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="6" ana="#Grand-Prix-Circuit">Grand Prix Circuit</item>
+					<item n="7" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="8" ana="#Oil-Imperium">Oil Imperium</item>
+					<item n="9" ana="#Creatures-2">Creatures 2</item>
+					<item n="10" ana="#Tetris">Tetris</item>
+				</list>
+				<list n="1992-12">
+					<fw>Ausgabe 12/Dezember 92</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="3" ana="#Turrican">Turrican</item>
+					<item n="4" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="5" ana="#Pirates">Pirates!</item>
+					<item n="6" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="7" ana="#Grand-Prix-Circuit">Grand Prix Circuit</item>
+					<item n="8" ana="#Oil-Imperium">Oil Imperium</item>
+					<item n="9" ana="#Elite">Elite</item>
+					<item n="10" ana="#Katakis">Katakis</item>
+				</list>
+				<list n="1993-01">
+					<fw>Ausgabe 1/Januar 93</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="3" ana="#Turrican">Turrican</item>
+					<item n="4" ana="#Pirates">Pirates!</item>
+					<item n="5" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="6" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="7" ana="#Grand-Prix-Circuit">Grand Prix Circuit</item>
+					<item n="8" ana="#Oil-Imperium">Oil Imperium</item>
+					<item n="9" ana="#Tetris">Tetris</item>
+					<item n="10" ana="#Elite">Elite</item>
+				</list>
+				<list n="1993-02">
+					<fw>Ausgabe 2/Februar 93</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="3" ana="#Turrican">Turrican</item>
+					<item n="4" ana="#Oil-Imperium">Oil Imperium</item>
+					<item n="5" ana="#Pirates">Pirates!</item>
+					<item n="6" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="7" ana="#Katakis">Katakis</item>
+					<item n="8" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="9" ana="#Grand-Prix-Circuit">Grand Prix Circuit</item>
+					<item n="10" ana="#Elvira-2">Elvira-2</item>
+				</list>
+				<list n="1993-03">
+					<fw>Ausgabe 3/März 93</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="3" ana="#Turrican">Turrican</item>
+					<item n="4" ana="#Pirates">Pirates!</item>
+					<item n="5" ana="#Elite">Elite</item>
+					<item n="6" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="7" ana="#Grand-Prix-Circuit">Grand Prix Circuit</item>
+					<item n="8" ana="#Elvira-2">Elvira-2</item>
+					<item n="9" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="10" ana="#Oil-Imperium">Oil Imperium</item>
+				</list>
+				<list n="1993-04">
+					<fw>Ausgabe 4/April 93</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="3" ana="#Turrican">Turrican</item>
+					<item n="4" ana="#Creatures-2">Creatures II</item>
+					<item n="5" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="6" ana="#Elvira-2">Elvira-2</item>
+					<item n="7" ana="#Oil-Imperium">Oil Imperium</item>
+					<item n="8" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="9" ana="#Katakis">Katakis</item>
+					<item n="10" ana="#Pirates">Pirates!</item>
+				</list>
+			</div>
+			<div xml:id="asm-hitline">
+				<head>ASM</head>
+				<!-- 1991-04 noch keine Verkaufscharts -->
+				<!-- 1991-05 noch keine Verkaufscharts -->
+				<list n="1991-06">
+					<fw>Ausgabe 6/91</fw>
+					<item n="1" ana="#Gluecksrad">Gluecksrad</item>
+					<item n="2" ana="#Turrican-2">Turrican 2</item>
+					<item n="3" ana="#Lotus">Lotus Esprit Turbo Challenge</item>
+					<item n="4" ana="#Dino-Wars">Dino Wars</item>
+					<item n="5" ana="#Challengers">Challengers</item>
+					<item n="6" ana="#Pirates">Pirates!</item>
+					<item n="7" ana="#Dick-Tracy">Dick Tracy</item>
+					<item n="8" ana="#Teenage-Mutant-Hero-Turtles-2">Teenage Mutant Hero Turtles II</item>
+					<item n="9" ana="#Kick-Off-2">Kick Off II</item>
+					<item n="10" ana="#Gremlins-2">Gremlins II</item>
+				</list>
+				<list n="1991-07">
+					<fw>Ausgabe 7/91</fw>
+					<item n="1" ana="#Teenage-Mutant-Hero-Turtles-2">Teenage Mutant Hero Turtles II</item>
+					<item n="2" ana="#Gluecksrad">Gluecksrad</item>
+					<item n="3" ana="#Der-Preis-ist-heiss">Der Preis ist heiss</item>
+					<item n="4" ana="#Full-Blast">Full Blast</item>
+					<item n="5" ana="#Ralf-Glau-Edition">Ralf Glau Edition</item>
+					<item n="6" ana="#Turrican-2">Turrican 2</item>
+					<item n="7" ana="#Lotus">Lotus Esprit Turbo Challenge</item>
+					<item n="8" ana="#Challengers">Challengers</item>
+					<item n="9" ana="#UN-Squadron">U.N. Squadron</item>
+					<item n="10" ana="#Power-Up">Power Up</item>
+				</list>
+				<list n="1991-08">
+					<fw>Ausgabe 8/9/91</fw>
+					<item n="1" ana="#Teenage-Mutant-Hero-Turtles-2">Teenage Mutant Hero Turtles II</item>
+					<item n="2" ana="#Der-Preis-ist-heiss">Der Preis ist heiss</item>
+					<item n="3" ana="#Gluecksrad">Gluecksrad</item>
+					<item n="4" ana="#Pirates">Pirates!</item>
+					<item n="5" ana="#Test-Drive-2">The Duel - Test Drive II</item>
+					<item n="6" ana="#Back-to-the-Future-3">Back to the Future III</item>
+					<item n="7" ana="#Sporting-Gold">Epyx Sporting Gold</item>
+					<item n="8" ana="#North-and-South">North &amp; South</item>
+					<item n="9" ana="#Power-Up">Power Up</item>
+					<item n="10" ana="#Challengers">Challengers</item>
+				</list>
+				<!-- mit 1991-09 (Doppelausgabe) -->
+				<list n="1991-10">
+					<fw>Ausgabe 10/91</fw>
+					<item n="1" ana="#Elvira">Elvira</item>
+					<item n="2" ana="#Teenage-Mutant-Hero-Turtles-2">Teenage Mutant Hero Turtles II</item>
+					<item n="3" ana="#Der-Preis-ist-heiss">Der Preis ist heiss</item>
+					<item n="4" ana="#Gluecksrad">Gluecksrad</item>
+					<item n="5" ana="#Back-to-the-Future-3">Back to the Future III</item>
+					<item n="6" ana="#Big-Box-2">Beau Jolly's Big Box</item>
+					<item n="7" ana="#North-and-South">North &amp; South</item>
+					<item n="8" ana="#Turrican-2">Turrican 2</item>
+					<item n="9" ana="#USS-John-Young-Special">USS John Young Special</item>
+					<item n="10" ana="#Sim-City">Sim City</item>
+				</list>
+				<list n="1991-11">
+					<fw>Ausgabe 11/91</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Gluecksrad">Gluecksrad</item>
+					<item n="3" ana="#Bundesliga-Manager">Bundesliga Manager</item>
+					<item n="4" ana="#Der-Preis-ist-heiss">Der Preis ist heiss</item>
+					<item n="5" ana="#Elvira">Elvira</item>
+					<item n="6" ana="#Manchester-United-Europe">Manchester United Europe</item>
+					<item n="7" ana="#Pirates">Pirates!</item>
+					<item n="8" ana="#Back-to-the-Future-3">Back to the Future III</item>
+					<item n="9" ana="#North-and-South">North &amp; South</item>
+					<item n="10" ana="#Big-Box-2">Beau Jolly's Big Box</item>
+				</list>
+				<list n="1991-12">
+					<fw>Ausgabe 12/91</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Gluecksrad">Gluecksrad</item>
+					<item n="3" ana="#Der-Preis-ist-heiss">Der Preis ist heiss</item>
+					<item n="4" ana="#Bundesliga-Manager">Bundesliga Manager</item>
+					<item n="6" ana="#Big-Box-2">Beau Jolly's Big Box</item>
+					<item n="7" ana="#Elvira">Elvira</item>
+					<item n="8" ana="#North-and-South">North &amp; South</item>
+					<item n="9" ana="#Back-to-the-Future-3">Back to the Future III</item>
+					<item n="10" ana="#Manchester-United-Europe">Manchester United Europe</item>
+				</list>
+				<list n="1992-01">
+					<fw>Ausgabe 1992-01</fw>
+					<item n="1" ana="#Bundesliga-Manager">Bundesliga Manager</item>
+					<item n="2" ana="#Turrican-2">Turrican 2</item>
+					<item n="3" ana="#Der-Preis-ist-heiss">Der Preis ist heiss</item>
+					<item n="4" ana="#Gluecksrad">Gluecksrad</item>
+					<item n="5" ana="#Manchester-United-Europe">Manchester United Europe</item>
+					<item n="6" ana="#Pirates">Pirates!</item>
+					<item n="7" ana="#Elvira">Elvira</item>
+					<item n="8" ana="#North-and-South">North &amp; South</item>
+					<item n="9" ana="#Reederei">Reederei</item>
+					<item n="10" ana="#Riskant">Riskant</item>
+				</list>
+				<list n="1992-02">
+					<fw>Ausgabe 1992-02</fw>
+					<item n="1" ana="#Bundesliga-Manager">Bundesliga Manager</item>
+					<item n="2" ana="#Der-Preis-ist-heiss">Der Preis ist heiss</item>
+					<item n="3" ana="#Riskant">Riskant</item>
+					<item n="4" ana="#Gluecksrad">Gluecksrad</item>
+					<item n="5" ana="#Turrican-2">Turrican 2</item>
+					<item n="6" ana="#Reederei">Reederei</item>
+					<item n="7" ana="#Elvira">Elvira</item>
+					<item n="8" ana="#Manchester-United-Europe">Manchester United Europe</item>
+					<item n="9" ana="#Pirates">Pirates!</item>
+					<item n="10" ana="#Rodland">Rodland</item>
+				</list>
+				<list n="1992-03">
+					<fw>Ausgabe 1992-03</fw>
+					<item n="1" ana="#Bundesliga-Manager">Bundesliga Manager</item>
+					<item n="2" ana="#Air-Sea-Supremacy">Air-Sea-Supremacy</item>
+					<item n="3" ana="#Pirates">Pirates!</item>
+					<item n="4" ana="#Elvira">Elvira</item>
+					<item n="5" ana="#Manchester-United-Europe">Manchester United Europe</item>
+					<item n="6" ana="#USS-John-Young-Special">USS John Young Special</item>
+					<item n="7" ana="#Big-Box-2">Beau Jolly's Big Box</item>
+					<item n="8" ana="#No-1-Collection">Collection Nr. 1</item>
+					<item n="9" ana="#The-Simpsons">The Simpsons</item>
+					<item n="10" ana="#Terminator-2">Terminator II</item>
+				</list>
+				<list n="1992-04">
+					<fw>Ausgabe 1992-04</fw>
+					<item n="1" ana="#Bundesliga-Manager">Bundesliga Manager</item>
+					<item n="2" ana="#The-Simpsons">The Simpsons</item>
+					<item n="3" ana="#Air-Sea-Supremacy">Air-Sea-Supremacy</item>
+					<item n="4" ana="#Manchester-United-Europe">Manchester United Europe</item>
+					<item n="5" ana="#Terminator-2">Terminator II</item>
+					<item n="6" ana="#USS-John-Young-Special">USS John Young Special</item>
+					<item n="7" ana="#Elvira">Elvira</item>
+					<item n="8" ana="#Pirates">Pirates!</item>
+					<item n="9" ana="#No-1-Collection">Starbyte Nr. 1 Collection</item>
+					<item n="10" ana="#Winzer">Winzer</item>
+				</list>
+				<list n="1992-05">
+					<fw>Ausgabe 1992-05</fw>
+					<item n="1" ana="#Terminator-2">Terminator II</item>
+					<item n="2" ana="#Bundesliga-Manager">Bundesliga Manager</item>
+					<item n="3" ana="#Pirates">Pirates!</item>
+					<item n="4" ana="#Winzer">Winzer</item>
+					<item n="5" ana="#The-Simpsons">The Simpsons</item>
+					<item n="6" ana="#USS-John-Young-Special">USS John Young Special</item>
+					<item n="7" ana="#Elvira">Elvira</item>
+					<item n="8" ana="#WWF-Wrestling">WWF Wrestling</item>
+					<item n="9" ana="#Air-Sea-Supremacy">Air-Sea-Supremacy</item>
+					<item n="10" ana="#Manchester-United-Europe">Manchester United Europe</item>
+				</list>
+				<list n="1992-06">
+					<fw>Ausgabe 1992-06</fw>
+					<item n="1" ana="#Terminator-2">Terminator II</item>
+					<item n="2" ana="#The-Simpsons">The Simpsons</item>
+					<item n="3" ana="#WWF-Wrestling">WWF Wrestling</item>
+					<item n="4" ana="#Bundesliga-Manager">Bundesliga Manager</item>
+					<item n="5" ana="#Big-Box-2">Beau Jolly's Big Box</item>
+					<item n="6" ana="#Starbyte-Super-Soccer">Starbyte Super Soccer</item>
+					<item n="7" ana="#Air-Sea-Supremacy">Air-Sea-Supremacy</item>
+					<item n="8" ana="#Pirates">Pirates!</item>
+					<item n="9" ana="#Conquestador">Conquestador</item>
+					<item n="10" ana="#Winzer">Winzer</item>
+				</list>
+				<list n="1992-07">
+					<fw>Ausgabe 1992-07</fw>
+					<item n="1" ana="#Bundesliga-Manager">Bundesliga Manager</item>
+					<item n="2" ana="#Big-Box-2">Beau Jolly's Big Box</item>
+					<item n="3" ana="#Pirates">Pirates!</item>
+					<item n="4" ana="#WWF-Wrestling">WWF Wrestling</item>
+					<item n="5" ana="#Air-Sea-Supremacy">Air-Sea-Supremacy</item>
+					<item n="6" ana="#The-Simpsons">The Simpsons</item>
+					<item n="7" ana="#Conquestador">Conquestador</item>
+					<item n="8" ana="#Terminator-2">Terminator II</item>
+					<item n="9" ana="#Starbyte-Super-Soccer">Starbyte Super Soccer</item>
+					<item n="10" ana="#Winzer">Winzer</item>
+				</list>
+				<list n="1992-08">
+					<fw>Ausgabe 1992-08</fw>
+					<item n="1" ana="#Big-Box-2">Beau Jolly's Big Box</item>
+					<item n="2" ana="#Pirates">Pirates!</item>
+					<item n="3" ana="#WWF-Wrestling">WWF Wrestling</item>
+					<item n="4" ana="#Air-Sea-Supremacy">Air-Sea-Supremacy</item>
+					<item n="5" ana="#Bundesliga-Manager">Bundesliga Manager</item>
+					<item n="6" ana="#Terminator-2">Terminator II</item>
+					<item n="7" ana="#The-Simpsons">The Simpsons</item>
+					<item n="8" ana="#Winzer">Winzer</item>
+					<item n="9" ana="#Conquestador">Conquestador</item>
+					<item n="10" ana="#Elvira">Elvira</item>
+				</list>
+				<list n="1992-09">
+					<fw>Ausgabe 1992-09</fw>
+					<item n="1" ana="#Bundesliga-Manager">Bundesliga Manager</item>
+					<item n="2" ana="#Big-Box-2">Beau Jolly's Big Box</item>
+					<item n="3" ana="#Pirates">Pirates!</item>
+					<item n="4" ana="#WWF-Wrestling">WWF Wrestling</item>
+					<item n="5" ana="#Terminator-2">Terminator II</item>
+					<item n="6" ana="#Elvira">Elvira</item>
+					<item n="7" ana="#Air-Sea-Supremacy">Air-Sea-Supremacy</item>
+					<item n="8" ana="#The-Simpsons">The Simpsons</item>
+					<item n="9" ana="#Teenage-Mutant-Hero-Turtles-2">Teenage Mutant Hero Turtles II</item>
+					<item n="10" ana="#Winzer">Winzer</item>
+				</list>
+				<list n="1992-10">
+					<fw>Ausgabe 1992-10</fw>
+					<item n="1" ana="#Teenage-Mutant-Hero-Turtles-2">Teenage Mutant Hero Turtles II</item>
+					<item n="2" ana="#Big-Box-2">Beau Jolly's Big Box</item>
+					<item n="3" ana="#WWF-Wrestling">WWF Wrestling</item>
+					<item n="4" ana="#Terminator-2">Terminator II</item>
+					<item n="5" ana="#The-Simpsons">The Simpsons</item>
+					<item n="6" ana="#Pirates">Pirates!</item>
+					<item n="7" ana="#Conquestador">Conquestador</item>
+					<item n="8" ana="#USS-John-Young-Special">USS John Young Special</item>
+					<item n="9" ana="#Familien-Duell">Familien-Duell</item>
+					<item n="10" ana="#Elvira">Elvira</item>
+				</list>
+				<list n="1992-11">
+					<fw>Ausgabe 1992-11</fw>
+					<item n="1" ana="#Big-Box-2">Beau Jolly's Big Box</item>
+					<item n="2" ana="#Pirates">Pirates!</item>
+					<item n="3" ana="#Teenage-Mutant-Hero-Turtles-2">Teenage Mutant Hero Turtles II</item>
+					<item n="4" ana="#The-Simpsons">The Simpsons</item>
+					<item n="5" ana="#WWF-Wrestling">WWF Wrestling</item>
+					<item n="6" ana="#Terminator-2">Terminator II</item>
+					<item n="7" ana="#Familien-Duell">Familien-Duell</item>
+					<item n="8" ana="#Elvira">Elvira</item>
+					<item n="9" ana="#Conquestador">Conquestador</item>
+					<item n="10" ana="#USS-John-Young-Special">USS John Young Special</item>
+				</list>
+				<list n="1992-12">
+					<fw>Ausgabe 1992-12</fw>
+					<item n="1" ana="#Pirates">Pirates!</item>
+					<item n="2" ana="#Teenage-Mutant-Hero-Turtles-2">Teenage Mutant Hero Turtles II</item>
+					<item n="3" ana="#Elvira">Elvira</item>
+					<item n="4" ana="#Bundesliga-Manager">Bundesliga Manager</item>
+					<item n="5" ana="#WWF-Wrestling">WWF Wrestling</item>
+					<item n="6" ana="#The-Simpsons">The Simpsons</item>
+					<item n="7" ana="#Familien-Duell">Familien-Duell</item>
+					<item n="8" ana="#USS-John-Young-Special">USS John Young Special</item>
+					<item n="9" ana="#Terminator-2">Terminator II</item>
+					<item n="10" ana="#Conquestador">Conquestador</item>
+				</list>
+				<list n="1993-01">
+					<fw>Ausgabe 1993-01</fw>
+					<item n="1" ana="#Bundesliga-Manager">Bundesliga Manager</item>
+					<item n="2" ana="#Pirates">Pirates!</item>
+					<item n="3" ana="#Familien-Duell">Familien-Duell</item>
+					<item n="4" ana="#WWF-Wrestling">WWF Wrestling</item>
+					<item n="5" ana="#Big-Box-2">Beau Jolly's Big Box</item>
+					<item n="6" ana="#Teenage-Mutant-Hero-Turtles-2">Teenage Mutant Hero Turtles II</item>
+					<item n="7" ana="#The-Simpsons">The Simpsons</item>
+					<item n="8" ana="#Elvira">Elvira</item>
+					<item n="9" ana="#USS-John-Young-Special">USS John Young Special</item>
+					<item n="10" ana="#Conquestador">Conquestador</item>
+				</list>
+				<!-- 1993-02 nur Lesercharts -->
+				<list n="1993-03">
+					<fw>Ausgabe 1993-03</fw>
+					<item n="1" ana="#Big-Box-2">Beau Jolly's Big Box</item>
+					<item n="2" ana="#Bundesliga-Manager">Bundesliga Manager</item>
+					<item n="3" ana="#Pirates">Pirates!</item>
+					<item n="4" ana="#WWF-Wrestling">WWF Wrestling</item>
+					<item n="5" ana="#Elvira">Elvira</item>
+					<item n="6" ana="#Teenage-Mutant-Hero-Turtles-2">Teenage Mutant Hero Turtles II</item>
+					<item n="7" ana="#Conquestador">Conquestador</item>
+					<item n="8" ana="#The-Simpsons">The Simpsons</item>
+					<item n="9" ana="#Familien-Duell">Familien-Duell</item>
+					<item n="10" ana="#USS-John-Young-Special">USS John Young Special</item>
+				</list>
+				<list n="1993-04">
+					<fw>Ausgabe 1993-04</fw>
+					<item n="1" ana="#Bundesliga-Manager">Bundesliga Manager</item>
+					<item n="2" ana="#Big-Box-2">Beau Jolly's Big Box</item>
+					<item n="3" ana="#Pirates">Pirates!</item>
+					<item n="4" ana="#Familien-Duell">Familien-Duell</item>
+					<item n="5" ana="#Elvira">Elvira</item>
+					<item n="6" ana="#WWF-Wrestling">WWF Wrestling</item>
+					<item n="7" ana="#Conquestador">Conquestador</item>
+					<item n="8" ana="#Crazy-Cars-3">Crazy Cars III</item>
+					<item n="9" ana="#USS-John-Young-Special">USS John Young Special</item>
+					<item n="10" ana="#The-Simpsons">The Simpsons</item>
+				</list>
+			</div>
+			<div xml:id="game-on-lesercharts">
+				<head>Game On!</head>
+				<list n="1991-04">
+					<fw>April 1991</fw>
+					<item n="1" ana="#Ninja-Remix">Last Ninja Remix</item>
+					<item n="2" ana="#Rick-Dangerous-2">Rick Dangerous 2</item>
+					<item n="3" ana="#Turrican">Turrican</item>
+					<item n="4" ana="#X-Out">X-Out</item>
+					<item n="5" ana="#Flimbos-Quest">Flimbo's Quest</item>
+					<item n="6" ana="#Buck-Rogers">Buck Rogers</item>
+					<item n="7" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="8" ana="#Rainbow-Islands">Rainbow Islands</item>
+					<item n="9" ana="#Klax">Klax</item>
+					<item n="10" ana="#Pirates">Pirates!</item>
+				</list>
+				<list n="1991-05">
+					<fw>Mai 1991</fw>
+					<item n="1" ana="#Ninja-Remix">Last Ninja Remix</item>
+					<item n="2" ana="#Turrican">Turrican</item>
+					<item n="3" ana="#Rick-Dangerous-2">Rick Dangerous 2</item>
+					<item n="4" ana="#Buck-Rogers">Buck Rogers</item>
+					<item n="5" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="6" ana="#X-Out">X-Out</item>
+					<item n="7" ana="#Flimbos-Quest">Flimbo's Quest</item>
+					<item n="8" ana="#Rainbow-Islands">Rainbow Islands</item>
+					<item n="9" ana="#Klax">Klax</item>
+					<item n="10" ana="#Sim-City">Sim City</item>
+				</list>
+				<list n="1991-06">
+					<fw>Juni 1991</fw>
+					<item n="1" ana="#Ninja-Remix">Last Ninja Remix</item>
+					<item n="2" ana="#Turrican">Turrican</item>
+					<item n="3" ana="#Rick-Dangerous-2">Rick Dangerous 2</item>
+					<item n="4" ana="#X-Out">X-Out</item>
+					<item n="5" ana="#Rainbow-Islands">Rainbow Islands</item>
+					<item n="6" ana="#Turrican-2">Turrican 2</item>
+					<item n="7" ana="#Flimbos-Quest">Flimbo's Quest</item>
+					<item n="8" ana="#Creatures">Creatures</item>
+					<item n="9" ana="#Champions-of-Krynn">Champions of Krynn</item>
+					<item n="10" ana="#Pirates">Pirates!</item>
+				</list>
+				<list n="1991-07">
+					<fw>Juli 1991</fw>
+					<item n="1" ana="#Ninja-Remix">Last Ninja Remix</item>
+					<item n="2" ana="#Turrican">Turrican</item>
+					<item n="3" ana="#Rick-Dangerous-2">Rick Dangerous 2</item>
+					<item n="4" ana="#X-Out">X-Out</item>
+					<item n="5" ana="#Turrican-2">Turrican 2</item>
+					<item n="6" ana="#Rainbow-Islands">Rainbow Islands</item>
+					<item n="7" ana="#Flimbos-Quest">Flimbo's Quest</item>
+					<item n="8" ana="#Creatures">Creatures</item>
+					<item n="9" ana="#Pirates">Pirates!</item>
+					<item n="10" ana="#Champions-of-Krynn">Champions of Krynn</item>
+				</list>
+				<list n="1991-08">
+					<fw>August 1991</fw>
+					<item n="1" ana="#Ninja-Remix">Last Ninja Remix</item>
+					<item n="2" ana="#Turrican-2">Turrican 2</item>
+					<item n="3" ana="#Turrican">Turrican</item>
+					<item n="4" ana="#Rick-Dangerous-2">Rick Dangerous 2</item>
+					<item n="5" ana="#X-Out">X-Out</item>
+					<item n="6" ana="#Rainbow-Islands">Rainbow Islands</item>
+					<item n="7" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="8" ana="#Flimbos-Quest">Flimbo's Quest</item>
+					<item n="9" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="10" ana="#Creatures">Creatures</item>
+				</list>
+				<list n="1991-09">
+					<fw>September 1991</fw>
+					<item n="1" ana="#Ninja-Remix">Last Ninja Remix</item>
+					<item n="2" ana="#Turrican-2">Turrican 2</item>
+					<item n="3" ana="#Sim-City">Sim City</item>
+					<item n="4" ana="#Turrican">Turrican</item>
+					<item n="5" ana="#X-Out">X-Out</item>
+					<item n="6" ana="#Rick-Dangerous-2">Rick Dangerous 2</item>
+					<item n="7" ana="#Gremlins-2">Gremlins 2</item>
+					<item n="8" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="9" ana="#Pirates">Pirates!</item>
+					<item n="10" ana="#Champions-of-Krynn">Champions of Krynn</item>
+				</list>
+				<list n="1991-10">
+					<fw>Oktober 1991</fw>
+					<item n="1" ana="#Ninja-Remix">Last Ninja Remix</item>
+					<item n="2" ana="#Turrican-2">Turrican 2</item>
+					<item n="3" ana="#Turrican">Turrican</item>
+					<item n="4" ana="#Sim-City">Sim City</item>
+					<item n="5" ana="#Rick-Dangerous-2">Rick Dangerous 2</item>
+					<item n="6" ana="#X-Out">X-OutKracken</item>
+					<item n="7" ana="#Gremlins-2">Gremlins 2</item>
+					<item n="8" ana="#Pirates">Pirates!</item>
+					<item n="9" ana="#Champions-of-Krynn">Champions of Krynn</item>
+					<item n="10" ana="#Last-Ninja-3">Last Ninja 3</item>
+				</list>
+				<!-- Disk-Image defekt -->
+				<list n="1991-12">
+					<fw>Dezember 1991</fw>
+					<item n="1" ana="#Ninja-Remix">Last Ninja Remix</item>
+					<item n="2" ana="#Turrican-2">Turrican 2</item>
+					<item n="3" ana="#Turrican">Turrican</item>
+					<item n="4" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="5" ana="#Rick-Dangerous-2">Rick Dangerous 2</item>
+					<item n="6" ana="#Sim-City">Sim City</item>
+					<item n="7" ana="#Pirates">Pirates!</item>
+					<item n="8" ana="#Champions-of-Krynn">Champions of Krynn</item>
+					<item n="9" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="10" ana="#Gremlins-2">Gremlins 2</item>
+				</list>
+				<list n="1992-01">
+					<fw>Januar 1992</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Ninja-Remix">Last Ninja Remix</item>
+					<item n="3" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="4" ana="#Turrican">Turrican</item>
+					<item n="5" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="6" ana="#Sim-City">Sim City</item>
+					<item n="7" ana="#Pirates">Pirates!</item>
+					<item n="8" ana="#Champions-of-Krynn">Champions of Krynn</item>
+					<item n="9" ana="#Mechanicus">Mechanicus</item>
+					<item n="10" ana="#Rick-Dangerous-2">Rick Dangerous 2</item>
+				</list>
+				<list n="1992-02">
+					<fw>Februar 1992</fw>
+					<item n="1" ana="#Ninja-Remix">Last Ninja Remix</item>
+					<item n="2" ana="#Turrican-2">Turrican 2</item>
+					<item n="3" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="4" ana="#Turrican">Turrican</item>
+					<item n="5" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="6" ana="#Sim-City">Sim City</item>
+					<item n="7" ana="#Pirates">Pirates!</item>
+					<item n="8" ana="#Mechanicus">Mechanicus</item>
+					<item n="9" ana="#Champions-of-Krynn">Champions of Krynn</item>
+					<item n="10" ana="#Gremlins-2">Gremlins 2</item>
+				</list>
+				<list n="1992-03">
+					<fw>März 1992</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Ninja-Remix">Last Ninja Remix</item>
+					<item n="3" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="4" ana="#Turrican">Turrican</item>
+					<item n="5" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="6" ana="#Sim-City">Sim City</item>
+					<item n="7" ana="#Pirates">Pirates!</item>
+					<item n="8" ana="#Mechanicus">Mechanicus</item>
+					<item n="9" ana="#Champions-of-Krynn">Champions of Krynn</item>
+					<item n="10" ana="#Gremlins-2">Gremlins 2</item>
+				</list>
+				<list n="1992-04">
+					<fw>April/Mai 1992</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Ninja-Remix">Last Ninja Remix</item>
+					<item n="3" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="4" ana="#Turrican">Turrican</item>
+					<item n="5" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="6" ana="#Sim-City">Sim City</item>
+					<item n="7" ana="#Pirates">Pirates!</item>
+					<item n="8" ana="#Gremlins-2">Gremlins 2</item>
+					<item n="9" ana="#Champions-of-Krynn">Champions of Krynn</item>
+					<item n="10" ana="#Black-Panther">Black Panther</item>
+				</list>
+				<!-- mit 1992-05 (Doppelausgabe) -->
+				<list n="1992-06">
+					<fw>Juni 1992</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Ninja-Remix">Last Ninja Remix</item>
+					<item n="3" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="4" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="5" ana="#Turrican">Turrican</item>
+					<item n="6" ana="#Pirates">Pirates!</item>
+					<item n="7" ana="#Black-Panther">Black Panther</item>
+					<item n="8" ana="#Sim-City">Sim City</item>
+					<item n="9" ana="#PP-Hammer">P. P. Hammer</item>
+					<item n="10" ana="#Champions-of-Krynn">Champions of Krynn</item>
+				</list>
+				<list n="1992-07">
+					<fw>Juli/August 1992</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Ninja-Remix">Last Ninja Remix</item>
+					<item n="3" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="4" ana="#Pirates">Pirates!</item>
+					<item n="5" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="6" ana="#Turrican">Turrican</item>
+					<item n="7" ana="#Black-Panther">Black Panther</item>
+					<item n="8" ana="#Sim-City">Sim City</item>
+					<item n="9" ana="#Gremlins-2">Gremlins 2</item>
+					<item n="10" ana="#Creatures">Creatures</item>
+				</list>
+				<!-- mit 1992-08 (Doppelausgabe) -->
+				<list n="1992-09">
+					<fw>September 1992</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="3" ana="#Pirates">Pirates!</item>
+					<item n="4" ana="#Ninja-Remix">Last Ninja Remix</item>
+					<item n="5" ana="#Black-Panther">Black Panther</item>
+					<item n="6" ana="#Sim-City">Sim City</item>
+					<item n="7" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="8" ana="#Gremlins-2">Gremlins 2</item>
+					<item n="9" ana="#Kangarudy">Kangarudy</item>
+					<item n="10" ana="#Turrican">Turrican</item>
+				</list>
+				<list n="1992-10">
+					<fw>Oktober 1992</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="3" ana="#Black-Panther">Black Panther</item>
+					<item n="4" ana="#Ninja-Remix">Last Ninja Remix</item>
+					<item n="5" ana="#Pirates">Pirates!</item>
+					<item n="6" ana="#Stoppt-den-Calippo-Fresser">Calippo Fresser</item>
+					<item n="7" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="8" ana="#Gremlins-2">Gremlins 2</item>
+					<item n="9" ana="#Sim-City">Sim City</item>
+					<item n="10" ana="#Creatures">Creatures</item>
+				</list>
+				<list n="1992-11">
+					<fw>November 1992</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="3" ana="#Pirates">Pirates!</item>
+					<item n="4" ana="#Black-Panther">Black Panther</item>
+					<item n="5" ana="#Stoppt-den-Calippo-Fresser">Calippo Fresser</item>
+					<item n="6" ana="#Mechanicus">Mechanicus</item>
+					<item n="7" ana="#Sim-City">Sim City</item>
+					<item n="8" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="9" ana="#Soul-Crystal">Soul Crystal</item>
+					<item n="10" ana="#Maniac-Mansion">Maniac Mansion</item>
+				</list>
+				<list n="1992-12">
+					<fw>Dezember 1992</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="3" ana="#Pirates">Pirates!</item>
+					<item n="4" ana="#Stoppt-den-Calippo-Fresser">Calippo Fresser</item>
+					<item n="5" ana="#Black-Panther">Black Panther</item>
+					<item n="6" ana="#Mechanicus">Mechanicus</item>
+					<item n="7" ana="#Sim-City">Sim City</item>
+					<item n="8" ana="#Last-Ninja-3">Last Ninja 3</item>
+					<item n="9" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="10" ana="#Bug-Bomber">Bug Bomber</item>
+				</list>
+				<list n="1993-01">
+					<fw>Januar 1993</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="3" ana="#Pirates">Pirates!</item>
+					<item n="4" ana="#Stoppt-den-Calippo-Fresser">Calippo Fresser</item>
+					<item n="5" ana="#Black-Panther">Black Panther</item>
+					<item n="6" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="7" ana="#Bug-Bomber">Bug Bomber</item>
+					<item n="8" ana="#Mechanicus">Mechanicus</item>
+					<item n="9" ana="#Ninja-Remix">Last Ninja Remix</item>
+					<item n="10" ana="#Last-Ninja-3">Last Ninja 3</item>					
+				</list>
+				<list n="1993-02">
+					<fw>Februar 1993</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Pirates">Pirates!</item>
+					<item n="3" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="4" ana="#Stoppt-den-Calippo-Fresser">Calippo Fresser</item>
+					<item n="5" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="6" ana="#Mechanicus">Mechanicus</item>
+					<item n="7" ana="#Black-Panther">Black Panther</item>
+					<item n="8" ana="#Bug-Bomber">Bug Bomber</item>
+					<item n="9" ana="#Ninja-Remix">Last Ninja Remix</item>
+					<item n="10" ana="#Enforcer">Enforcer</item>
+				</list>
+				<list n="1993-03">
+					<fw>März 1993</fw>
+					<item n="1" ana="#Pirates">Pirates!</item>
+					<item n="2" ana="#Turrican-2">Turrican 2</item>
+					<item n="3" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="4" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="5" ana="#Bug-Bomber">Bug Bomber</item>
+					<item n="6" ana="#Mechanicus">Mechanicus</item>
+					<item n="7" ana="#Ninja-Remix">Last Ninja Remix</item>
+					<item n="8" ana="#Enforcer">Enforcer</item>
+					<item n="9" ana="#Black-Panther">Black Panther</item>
+					<item n="10" ana="#Sim-City">Sim City</item>
+				</list>
+				<list n="1993-04">
+					<fw>April/Mai 1993</fw>
+					<item n="1" ana="#Turrican-2">Turrican 2</item>
+					<item n="2" ana="#Pirates">Pirates!</item>
+					<item n="3" ana="#Zak-McKracken">Zak McKracken</item>
+					<item n="4" ana="#Bug-Bomber">Bug Bomber</item>
+					<item n="5" ana="#Mechanicus">Mechanicus</item>
+					<item n="6" ana="#Maniac-Mansion">Maniac Mansion</item>
+					<item n="7" ana="#Black-Panther">Black Panther</item>
+					<item n="8" ana="#Enforcer">Enforcer</item>
+					<item n="9" ana="#Teenage-Mutant-Hero-Turtles-2">[Teenage Mutant Hero] Turtles [II]</item>
+					<item n="10" ana="#Ninja-Remix">Last Ninja Remix</item>
+				</list>
+			</div>
+			<!--<div xml:id="action-news-top10">
+				<head>Action News</head>
+				<list n="1990-03">
+					<fw>Nr. 5 (März 1990)</fw>
+					<item n="1" ana="#Power-Drift">Power Drift</item>
+					<item n="2" ana="#Katakis">Katakis</item>
+					<item n="3" ana="#Hawkeye">Hawkeye</item>
+					<item n="4" ana="#Turbo-Outrun">Turbo Outrun</item>
+					<item n="5" ana="#Grand-Monster-Slam">Grand Monster Slam</item>
+					<item n="6" ana="#Stunt-Car-Racer">Stunt Car Racer</item>
+					<item n="7" ana="#Armalyte">Armalyte</item>
+					<item n="8" ana="#Toobin">Toobin</item>
+					<item n="9" ana="#The-Untouchables">The Untouchables</item>
+					<item n="10" ana="#Oil-Imperium">Oil Imperium</item>
+				</list>
+			</div>-->
+		</body>
+	</text>
+</TEI>

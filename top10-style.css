@@ -1,0 +1,101 @@
+@font-face {
+	font-family:"Commodore 128";
+	src:url('fonts/commodore-128.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+html {
+	font-size:13px;
+	padding:0;
+	margin:0;
+}
+body {
+	font-family:"Commodore 128",courier, fixed, monospace;
+	background-color:#444;
+	color:#afa;
+	padding:0 1rem;
+	margin:0;
+}
+
+table {
+	border-collapse:collapse;
+	padding:0;
+	margin:0;
+}
+table caption {
+	border-top:0.1rem solid #afa;
+	border-bottom:0.1rem solid #afa;
+	margin:1rem 0;
+	padding:1rem 0;
+	letter-spacing:0.1rem;
+	font-size:1.5em;
+}
+th {
+	text-align:center;
+	font-weight:normal;
+}
+thead th {
+	padding:0.5em 1rem;
+	color:#afa;
+}
+thead.months th {
+	padding:0;
+	color:#ccc;
+}
+thead.months th span.alternate {
+	text-decoration:underline;
+}
+tr:hover {
+	background-color:#555;
+}
+td.position {
+	/*border-bottom:1px dotted #afa;*/
+	padding:0.5rem 0 0 0;
+	text-align:right;
+	color:#999;
+}
+td.title {
+	/*border-bottom:1px dotted #afa;*/
+	padding:0.5rem 0.5rem 0 0.25rem;
+}
+td.title span.published {
+	display:inline;
+	padding:0;
+	color:#999;
+}
+td.rankings {
+	/*border-bottom:1px dotted #afa;*/
+	border-left:1px dotted #777;
+	padding:0.5rem 1rem 0 0;
+	font-size:0.6rem;
+	line-height:0.8rem;
+	color:#aa0;
+}
+
+thead.months th span,
+td.rankings span {
+	display:inline-block;
+	line-height:1rem;
+	width:1rem;
+	height:1rem;
+	text-align:center;
+}
+span.compilation {
+	color:red;
+}
+
+a {
+	color:#afa;
+	text-decoration:none;
+}
+
+span.rank1  { background:linear-gradient(to top, #fff 0%, #fff 100%); }
+span.rank2  { background:linear-gradient(to top, #ffc 0%, #ffc 90%, transparent 91%); }
+span.rank3  { background:linear-gradient(to top, #ff9 0%, #ff9 80%, transparent 81%); }
+span.rank4  { background:linear-gradient(to top, #ff6 0%, #ff6 70%, transparent 71%); }
+span.rank5  { background:linear-gradient(to top, #cf6 0%, #cf6 60%, transparent 61%); }
+span.rank6  { background:linear-gradient(to top, #9f6 0%, #9f6 50%, transparent 51%); }
+span.rank7  { background:linear-gradient(to top, #6f6 0%, #6f6 40%, transparent 41%); }
+span.rank8  { background:linear-gradient(to top, #6c6 0%, #6c6 30%, transparent 31%); }
+span.rank9  { background:linear-gradient(to top, #3c3 0%, #3c3 20%, transparent 21%); }
+span.rank10 { background:linear-gradient(to top, #090 0%, #090 10%, transparent 11%); }
